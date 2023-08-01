@@ -1,0 +1,65 @@
+body {
+
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) /*para oscurecer una imagen de fondo*/, url(fondo.jpg);
+    margin: auto; /* margenes laterales*/
+    width: 700px; /*ancho del body*/
+    padding: 50px; /*para el relleno del body, añade espacio entre el borde del elemento y su contenido*/
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*familia de fuentes dentro del body, estableciendo preferencias*/
+    color: white; /*color del texto del body, blanco en este caso*/
+    text-align: justify; /*establece el alineado del texto como justificado en este caso*/
+ 
+}
+
+
+h1  { 
+    text-align: center;
+    font-size: 55px; /*establece el tamaño de la fuente dentro del h1*/
+}
+.intro { 
+    text-align: center;
+    font-size: 25px
+}
+
+.img {
+    width:200px;
+    height:200px;
+    border-radius:150px; /*para aplicar borde ciruclar*/
+    border:5px solid white;
+    object-fit: cover; /*para que no se distorsione la imagen*/
+    
+}
+.container {
+    display: flex;
+  justify-content: center;
+  align-items: center; /*alinea los elementos hijos verticalmente al centro*/
+}
+
+.redes{
+    width: 100px;
+    height: 100px;
+   
+}
+table {
+    table-layout: fixed; /*establece un diseño de tabla de ancho fijo donde las celdas tienen el mismo ancho*/
+    width: 100%;
+    border-collapse: collapse; /*fusiona los bordes de las celdas de la tabla para que no haya espacios entre ellas*/
+    vertical-align: auto; /*alinea verticalmente el contenido de las celdas */
+    text-align: center;
+    
+ 
+  }
+#asunto {
+    width: 485px; 
+    height: 15px;
+} 
+#cuerpo {
+    width: 550px; 
+    height: 200px;
+
+}
+#formulario span {
+    color: red;
+}
+#indice li .estilo{
+    color: white
+}
